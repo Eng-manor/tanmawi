@@ -1,0 +1,93 @@
+<odoo>
+    <data>
+        <template id="tanmawi.projects_page">
+
+            <t t-call="tanmawi.warrper_front_layout">
+
+                <t t-set="page_warpper_main">
+
+                    <section class="page-banner">
+                        <div class="image-layer lazy-image" data-bg="url('/tanmawi/static/tanmwi/public/images/background/projects.jpg')"></div>
+                        <div class="bottom-rotten-curve alternate"></div>
+
+                        <div class="auto-container">
+                            <h1 style="font-family:'Droid Arabic Kufi';"></h1>
+                            <ul class="bread-crumb clearfix"></ul>
+                        </div>
+
+                    </section>
+
+
+                    <section class="what-we-do">
+                        <div class="auto-container">
+
+                            <div class="row clearfix opp">
+                                        
+                                <div t-foreach="request.env['projects'].sudo().search([])" t-as="p" class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12" style=" cursor: pointer;" t-attf-onclick=" window.location='/projects/#{p.id}' ;">
+                                    
+                                    <div class="inner-box">
+                                        <center>
+                                            <div class="icon-box">
+                                                <span>
+                                                    
+                                                    <img t-attf-src="data:image/png;base64,#{p.icon}" width="256" />
+                                                </span>
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                </div>
+
+                                <!-- <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12" style="cursor: pointer;" onclick="window.location='/projectb';">
+                                    <div class="inner-box">
+                                       <center> <div class="icon-box"><span><img src="/tanmawi/static/tanmwi/public/images/project/02.png" width="256" /></span></div></center>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12" style="cursor: pointer;" onclick="window.location='/projectc';">
+                                    <div class="inner-box">
+                                       <center> <div class="icon-box"><span><img src="/tanmawi/static/tanmwi/public/images/project/03.png" width="256" /></span></div></center>
+                                    </div>
+                                </div>
+                                <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12" style="cursor: pointer;" onclick="window.location='/projectd';">
+                                    <div class="inner-box">
+                                      <center> <div class="icon-box"><span><img src="/tanmawi/static/tanmwi/public/images/project/04.png" width="256" /></span></div></center>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12" style="cursor: pointer;" onclick="window.location='/projecte';">
+                                    <div class="inner-box">
+                                       <center> <div class="icon-box"><span><img src="/tanmawi/static/tanmwi/public/images/project/05.png" width="256" /></span></div></center>
+                                        
+                                    </div>
+                                </div>
+                                <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12" style="cursor: pointer;" onclick="window.location='/projectf';">
+                                    <div class="inner-box">
+                                       <center> <div class="icon-box"><span><img src="/tanmawi/static/tanmwi/public/images/project/06.png" width="256" /></span></div></center>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12" style="cursor: pointer;" onclick="window.location='/projectg';">
+                                    <div class="inner-box">
+                                       <center> <div class="icon-box"><span><img src="/tanmawi/static/tanmwi/public/images/project/07.png" width="256" /></span></div></center>
+                                    </div>
+                                </div> -->
+
+                            </div>
+
+                            <div class="bottom-image">
+                                <img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" alt="" />
+                            </div>
+
+                        </div>
+                    </section>
+
+
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

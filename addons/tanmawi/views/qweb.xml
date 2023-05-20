@@ -1,0 +1,342 @@
+<odoo>
+  <data>
+    <template id="tanmawi.web_layout" name="web_layout">
+      &lt;!DOCTYPE html&gt;
+      <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <title> تنموي | Tanmwi </title>
+          <!-- Stylesheets -->
+          <link href="/tanmawi/static/tanmwi/public/css/bootstrap.css" rel="stylesheet" />
+          <link href="/tanmawi/static/tanmwi/public/css/style.css" rel="stylesheet" />
+          <!-- Responsive File -->
+          <link href="/tanmawi/static/tanmwi/public/css/responsive.css" rel="stylesheet" />
+          <!-- Color File -->
+          <link href="/tanmawi/static/tanmwi/public/css/color.css" rel="stylesheet" />
+          <link href="/tanmawi/static/tanmwi/public/lb/imagelightbox.css" rel="stylesheet" />
+
+          <link rel="shortcut icon" href="/tanmawi/static/tanmwi/public/images/favicon.png" type="image/x-icon" />
+          <link rel="icon" href="/tanmawi/static/tanmwi/public/images/favicon.png" type="image/x-icon" />
+          <meta name="description" content="مبادرة تسهم في زيادة نمو المنشآت الصغيرة والمتوسطة وتحقيق التنمية المستدامة في المنطقة والمساهمة في رفع الناتج المحلي  في المملكة" />
+          <meta name="keywords" content="الحدود_الشمالية , الأمير فيصل بن خالد بن سلطان , تنموي , 2030 , الاقتصاد ,  التنمية الاقتصادية ,  وعد الشمال , روئية 2030  , السياحة الصحراوية " />
+          <meta name="author" content="TANMAWI" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        </head>
+
+        <body>
+          <div class="page-wrapper">
+
+            <div class="preloader"></div>
+
+            <header class="main-header">
+
+              <div class="inner clearfix">
+                <div class="auto-container"></div>
+
+              </div>
+
+
+              <div class="header-upper">
+                <div class="auto-container">
+                  <div class="inner-container clearfix">
+
+
+                    <div class="logo-boxe">
+
+                      <div class="logo">
+                        <a href="/" title="تنموي">
+                          <img src="/tanmawi/static/tanmwi/public/images/logo.png" alt="" title="تنموي" />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="logo-box">
+                      <div class="logo">
+                        <a href="/" title="تنموي">
+                          <img src="/tanmawi/static/tanmwi/public/images/emara.png" alt="" title="تنموي" />
+                        </a>
+                      </div>
+                    </div>
+
+
+                    <div class="nav-outer clearfix">
+
+                      <div class="mobile-nav-toggler">
+                        <span class="icon flaticon-menu-1"></span>
+                      </div>
+                      <div class="vision">
+                        <a href="/">
+                          <img class="visionimg" src="/tanmawi/static/tanmwi/public/images/sticky-logoll.png" style="width: 74px;" />
+                        </a>
+                      </div>
+
+
+                      <nav class="main-menu navbar-expand-md navbar-light">
+
+                        <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                          <ul class="navigation clearfix">
+                            <li>
+                              <a href="/contactus">تواصل معنا</a>
+                            </li>
+                            <li class="dropdown">
+                              <a href="#">المركز الاعلامي</a>
+                              <ul>
+                                <li>
+                                  <a href="/video">فيديو</a>
+                                </li>
+                                <li>
+                                  <a href="/photo">صور</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="dropdown">
+                              <a href="#">الدعم</a>
+                              <ul>
+                                <li>
+                                  <a href="/supporta">خدمات مالية</a>
+                                </li>
+                                <li>
+                                  <a href="/supportb">خدمات غير مالية</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="/projectstatics">الاحصائيات</a>
+                            </li>
+                            <li>
+                              <a href="/ideas">افكار استثمارية</a>
+                            </li>
+                            <li>
+                              <a href="/opportunities">الفرص الاستثمارية</a>
+                            </li>
+                            <li>
+                              <a href="/features">الميزات التنافسية</a>
+                            </li>
+                            <li class="dropdown">
+                              <a href="/projects">مشاريع المبادرة</a>
+                              <ul>
+                                <t t-foreach="request.env['projects'].sudo().search([])" t-as="p">
+
+                                  <li>
+                                    <a t-attf-href="/projects/#{p.id}">
+                                      <t t-raw="p.name" />
+                                    </a>
+                                  </li>
+
+                                </t>
+
+
+                                <!--                                           
+                                          <li><a href="/projecta">مشروع إنماء</a></li>
+                                          <li><a href="/projectb">مشروع أسر</a></li>
+                                          <li><a href="/projectc">صندوق تنموي</a></li>
+                                          <li><a href="/projectd">مشروع تاهيل</a></li>
+                                          <li><a href="/projecte">نادي ريادة الاعمال</a></li>
+                                          <li><a href="/projectf">مركز رائد لريادة الاعمال</a></li>
+                                          <li><a href="/projectg">إستثمر في الشمال</a></li> -->
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="/about">عن المبادرة</a>
+                            </li>
+                            <li>
+                              <a href="/">الرئيسية</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sticky-header">
+                <div class="auto-container clearfix">
+
+                  <div class="logo pull-left">
+                    <a href="/" title="">
+                      <img src="/tanmawi/static/tanmwi/public/images/sticky-logo.png" alt="" title="" />
+                    </a>
+                  </div>
+
+                  <div class="pull-right">
+
+                    <nav class="main-menu clearfix"></nav>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-menu">
+                <div class="menu-backdrop"></div>
+                <div class="close-btn">
+                  <span class="icon flaticon-cancel"></span>
+                </div>
+
+                <nav class="menu-box">
+
+                  <div class="nav-logo">
+                    <a href="/">
+                      <img src="/tanmawi/static/tanmwi/public/images/logo.png" alt="" title="" />
+                    </a>
+                  </div>
+
+                  <div class="menu-outer"></div>
+
+                  <div class="social-links">
+                    <ul class="clearfix">
+                      <li>
+                        <a href="#">
+                          <span class="fab fa-twitter"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span class="fab fa-facebook-square"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span class="fab fa-pinterest-p"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span class="fab fa-instagram"></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span class="fab fa-youtube"></span>
+                        </a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </header>
+
+
+            <wrapper></wrapper>
+
+
+            <section class="facts-section">
+              <div class="auto-container">
+                <div class="inner-container">
+
+                  <!-- Fact Counter -->
+                  <div class="fact-counter">
+                    <div class="row clearfix ">
+
+                      <!--Column-->
+                      <div class="column  col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                          <div class="content">
+                            <div class="count-outer count-box">
+                              <!-- <%= Vistor.all.count %> -->
+                              <span class="count-text" data-speed="3000" data-stop="13874">0</span>
+                            </div>
+                            <div class="counter-title">زوار الموقع</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Column-->
+                      <div class="column  col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                          <div class="content">
+                            <div class="count-outer count-box alternate">
+                              <span class="count-text" data-speed="3000" data-stop="11">0</span>
+                            </div>
+                            <div class="counter-title">جهات الخدمات المالية</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Column-->
+                      <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                          <div class="content">
+                            <div class="count-outer count-box">
+                              <span class="count-text" data-speed="2000" data-stop="10">0</span>
+                            </div>
+                            <div class="counter-title">شركاء النجاح</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Column-->
+                      <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
+                          <div class="content">
+                            <div class="count-outer count-box">
+                              <span class="count-text" data-speed="2000" data-stop="42">0</span>
+                            </div>
+                            <div class="counter-title">الجهات الداعمة</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </section>
+
+
+            <footer class="main-footer">
+
+
+              <!-- Footer Bottom -->
+              <div class="footer-bottom">
+                <div class="auto-container">
+
+                  <!--Scroll to top-->
+                  <div class="clearfix">
+                    <!-- <div class="copyright"><a href="http://gravita-adv.com" target="_blank"><img src="images/Gravita.png" width="20%" height="20%"></a>  &nbsp; &nbsp; || &nbsp; &nbsp;<a href=" https://wa.me/966566889897" target="_blank"><img src="images/royaanew.png" width="20%" height="20%"></a></div>  -->
+
+
+                  </div>
+                </div>
+              </div>
+
+            </footer>
+
+          </div>
+
+          <div class="scroll-to-top scroll-to-target" data-target="html">
+            <span class="flaticon-up-arrow"></span>
+          </div>
+
+          <script src="/tanmawi/static/tanmwi/public/js/jquery.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/popper.min.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/bootstrap.min.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/jquery-ui.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/jquery.fancybox.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/owl.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/appear.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/wow.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/lazyload.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/scrollbar.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/js/script.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/lb/imagelightbox.min.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/lb/imagelightbox.js"></script>
+          <script src="/tanmawi/static/tanmwi/public/lb/main.js"></script>
+        </body>
+      </html>
+    </template>
+
+    <template id="tanmawi.warrper_front_layout" inherit_id="tanmawi.web_layout">
+      <xpath expr='//wrapper' position="inside">
+
+        <t t-raw="page_warpper_main or ''" />
+
+      </xpath>
+
+
+    </template>
+
+
+  </data>
+</odoo>

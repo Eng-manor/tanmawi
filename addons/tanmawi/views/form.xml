@@ -1,0 +1,57 @@
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="tanmawi.tanmawi_form_rec">
+			<field name="name">tanmawi</field>
+			<field name="model">tanmawi</field>
+			<field name="arch" type="xml">
+				<form string="consult">
+					<header>
+						<field name="state" widget="statusbar" options="{'clickable': '1'}" />
+					</header>
+					<sheet>
+						<group>
+
+							<field name="name" />
+
+
+						</group>
+					</sheet>
+					<div class="oe_chatter">
+						<field name="message_follower_ids" widget="mail_followers" groups="base.group_user" />
+						<field name="activity_ids" widget="mail_activity" />
+						<field name="message_ids" widget="mail_thread" />
+					</div>
+				</form>
+			</field>
+		</record>
+		<record model="ir.ui.view" id="tanmawi.tanmawi_project_form_rec">
+			<field name="name">tanmawi projects</field>
+			<field name="model">projects</field>
+			<field name="arch" type="xml">
+				<form string="consult">
+					<sheet>
+						<group>
+
+							<field name="name" />
+							<field name="icon" />
+							<field name="header" />
+
+
+						</group>
+						<group>
+
+							<field name="project_points_ids" />
+
+
+						</group>
+					</sheet>
+					<div class="oe_chatter">
+						<field name="message_follower_ids" widget="mail_followers" groups="base.group_user" />
+						<field name="activity_ids" widget="mail_activity" />
+						<field name="message_ids" widget="mail_thread" />
+					</div>
+				</form>
+			</field>
+		</record>
+	</data>
+</odoo>

@@ -1,0 +1,127 @@
+<odoo>
+    <data>
+        <template id="tanmawi.ideas_page">
+
+            <t t-call="tanmawi.warrper_front_layout">
+
+                <t t-set="page_warpper_main">
+
+                    <!-- Page Banner Section -->
+                    <section class="page-banner">
+                        <div class="image-layer lazy-image" data-bg="url('/tanmawi/static/tanmwi/public/images/background/idea.jpg')"></div>
+                        <div class="bottom-rotten-curve alternate"></div>
+
+                        <div class="auto-container">
+                            <h1 style="font-family:'Droid Arabic Kufi'; color: #4a4c52bf; "></h1>
+
+                        </div>
+
+                    </section>
+
+
+                    <section class="team-section">
+                        <div class="bottom-rotten-curve"></div>
+
+                        <div class="auto-container">
+
+
+                            <div class="row clearfix">
+
+                                <!--Team Block-->
+                                <div class="team-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="0ms">
+                                        <figure class="image-box">
+                                            <a href="#">
+                                                <img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/fishfarm.jpg" alt=""/>
+                                            </a>
+                                        </figure>
+                                        <div class="lower-box">
+                                            <div class="content">
+                                                <h3 style="font-family:'Droid Arabic Kufi';">
+                                                    <a href="#">مزرعة لتربية الأسماك والروبيان</a>
+                                                </h3>
+                                                <div class="designation"></div>
+                                                <div class="social-links">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!--Team Block-->
+                                <div class="team-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <figure class="image-box">
+                                            <a href="#">
+                                                <img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/bark.jpg" alt=""/>
+                                            </a>
+                                        </figure>
+                                        <div class="lower-box">
+                                            <div class="content">
+                                                <h3 style="font-family:'Droid Arabic Kufi';">
+                                                    <a href="#">منتجع ومنتزه عائلي</a>
+                                                </h3>
+                                                <div class="designation"></div>
+                                                <div class="social-links">
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Team Block-->
+                                <div class="team-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
+                                        <figure class="image-box">
+                                            <a href="#">
+                                                <img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/nasij.jpg" alt=""/>
+                                            </a>
+                                        </figure>
+                                        <div class="lower-box">
+                                            <div class="content">
+                                                <h3 style="font-family:'Droid Arabic Kufi';">
+                                                    <a href="#">مصنع نسيج و صوف و جلديات</a>
+                                                </h3>
+                                                <div class="designation"></div>
+                                                <div class="social-links">
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="team-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
+                                        <figure class="image-box">
+                                            <a href="#">
+                                                <img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/univrsty.jpg" alt=""/>
+                                            </a>
+                                        </figure>
+                                        <div class="lower-box">
+                                            <div class="content">
+                                                <h3 style="font-family:'Droid Arabic Kufi';">
+                                                    <a href="#">جامعة أهلية</a>
+                                                </h3>
+                                                <div class="designation"></div>
+                                                <div class="social-links">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

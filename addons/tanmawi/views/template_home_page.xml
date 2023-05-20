@@ -1,0 +1,579 @@
+<odoo>
+    <data>
+        <template id="tanmawi.home_page">
+            
+            <t t-call="tanmawi.warrper_front_layout">
+
+                <t t-set="page_warpper_main">
+                    <section class="about-section" id="slidjusty" style="padding: 10px 0px 10px;">
+                        <div class="bottom-rotten-curve"></div>
+                    </section>
+                    <section class="banner-section">
+                        <div class="banner-carousel love-carousel owl-theme owl-carousel" data-options='{"loop": false, "margin": 0, "autoheight":true, "lazyload":true, "nav": false, "dots": false, "autoplay": true, "autoplayTimeout": 10000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
+                            <div class="slide-item">
+                                <div class="image-layer lazy-image homeslideimg" data-bg="url('/tanmawi/static/tanmwi/public/images/main-slider/130.jpg')" style="background-color: #f6f6f6;"></div>
+                                <div class="auto-container">
+                                    <div class="content-box">
+                                        <div class="text" style="color:#788078c7; font-family:'Droid Arabic Kufi'; position: relative; float: right;">
+                                            <div id="slidjusty">
+                                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="about-section" id="slidjusty">
+                        <div class="top-rotten-curve"></div>
+                        <div class="bottom-rotten-curve"></div>
+                    </section>
+
+
+
+                    <section class="testimonial-section-two" style="background-color: #f6f6f6;">
+                        <div class="auto-container" style="background-color: #f6f6f6;">
+                    
+                            <div class="wrapper-box">
+                                <br /><br />
+                    
+                                <div class="quote-icon"><span class="flaticon-left-quote"></span></div>
+                                <div class="testimonials-carousel love-carousel owl-theme owl-carousel"
+                                    data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 8000, "rtl":true,"smartSpeed": 10000, "responsive":{ "0" :{ "items": "1" },"200" :{ "items": "1" }, "800" :{ "items" : "1" }, "1024":{ "items" : "1" }, "1366":{ "items" : "1" }}}'>
+                    
+                    
+                    
+                    
+                    
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img class="aboutslidimg" src="/tanmawi/static/tanmwi/public/images/icons/Untitled-1-01.png"/>
+                                                    </div>
+                                                    <h3 class="aboutslidtxthed"> تعريف مبادرة تنموي </h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> هي مبادرة تسهم في زيادة نمو المنشآت الصغيرة والمتوسطة
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> وتحقيق التنمية المستدامة في المنطقة والمساهمة في رفع
+                                                            الناتج المحليGDP في المملكة. </li>
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img src="/tanmawi/static/tanmwi/public/images/icons/5-04.png" class="aboutslidimg"/> </div>
+                                                    <h3 class="aboutslidtxthed"> الرؤية </h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> أن تكون منطقة الحدود الشمالية بيئة جـــاذبة للإستثمار
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> تحقق التنمية المستدامة وفق مستهدفات رؤية 2030 </li>
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                    
+                    
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img src="/tanmawi/static/tanmwi/public/images/icons/Untitled-1-03.png" class="aboutslidimg"/>
+                                                    </div>
+                                                    <h3 class="aboutslidtxthed"> الرسالة </h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> أن نسعى لتقديم الدعم الكامل للمنشآت الصغيرة و المتوسطة
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> في منطقة الحدود الشمالية بما يحقق مستهدفات رؤية 2030
+                                                        </li>
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img src="/tanmawi/static/tanmwi/public/images/icons/Untitled-1-04.png" class="aboutslidimg"/>
+                                                    </div>
+                                                    <h3 class="aboutslidtxthed"> القيم </h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> - الدقة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - الاهتمام </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - المتابعة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - التحسين </li>
+                                                        <br/>
+                    
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img src="/tanmawi/static/tanmwi/public/images/icons/Untitled-1-02.png" class="aboutslidimg"/>
+                                                    </div>
+                                                    <h3 class="aboutslidtxthed"> الاهداف</h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> - رفع مستوى التنسيق بين الجهات الداعمة للمنشآت </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - زيــادة عـدد المنشــآت الصغيرة و المتوسطة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - تخفيض نسبة البطالة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - رفع مستوى التوطين </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - رفع الوعي الاستثماري </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - تهيئة بيئية جاذبة للمستثمرين </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - تحسين الدخل المعيشي للفرد </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - إيجاد فرص استثمارية نوعية </li>
+                                                        <br/>
+                    
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img src="/tanmawi/static/tanmwi/public/images/icons/Artboard1.png" class="aboutslidimg"/></div>
+                                                    <h3 class="aboutslidtxthed"> النتائج المتوقعة المباشرة </h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> فاعلية الجهات الداعمة للمنشآت </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> نمو عدد المنشآت الصغيرة و المتوسطة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> بيئة استثمارية مستدامة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> الوعي بالاستثمار النوعي </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> GDP المساهمة في رفع الناتج المحلي </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> فرص استثمارية داعمة لمشروع وعد الشمال </li>
+                                                        <br/>
+                    
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img src="/tanmawi/static/tanmwi/public/images/icons/Artboard1.png" class="aboutslidimg"/> </div>
+                                                    <h3 class="aboutslidtxthed"> النتائج المتوقعة الغير مباشرة </h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> انخفاض معدل البطالة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> زيادة نسبة التوطين </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> تمكين مشاركة استثمار المرأة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> نمو العدد السكاني </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> نمو الحركة التجارية </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> تحسين جودة الحياة </li>
+                                                        <br/>
+                    
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                                    <div class="slide-item">
+                    
+                                        <div class="event-block-three style-two col-lg-12 col-md-12 col-sm-12">
+                                            <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    
+                                                <div class="lower-content">
+                                                    <div class="date"> <img src="/tanmawi/static/tanmwi/public/images/icons/Artboard2.png" class="aboutslidimg"/> </div>
+                                                    <h3 class="aboutslidtxthed"> المنطلقات </h3>
+                                                    <ul class="info clearfix">
+                                                        <li class="aboutslidtxtli"> - دعم و توجيهات سمو أمير المنطقة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style=" color: #2d98a0;"> رؤية 2030 </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - اقتصاد مزدهر </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - تنمية وتنوع الاقتصاد </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style="text-align: right;direction: rtl;"> - زيادة مساهمة
+                                                            SMEs في الاقتصاد الوطني </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style=" color: #2d98a0;"> فئة الشباب العمرية </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style="text-align: right;direction: rtl;"> - <span
+                                                                style=" color: #2d98a0;"> 65 % </span> فما فوق </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style=" color: #2d98a0;"> التوجهات الاستثمارية </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - وعد الشمال </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - الميناء الجاف </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - السياحة الصحراوية </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style=" color: #2d98a0;"> الجهات الداعمة </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - القطاع الحكومي <span style=" color: #2d98a0;"> 8
+                                                            </span>
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - القطاع الخاص <span style=" color: #2d98a0;"> 22
+                                                            </span>
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli"> - القطاع الخيري <span style=" color: #2d98a0;"> 12
+                                                            </span>
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style=" color: #2d98a0;"> صندوق المال الجرئ </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style="text-align: right;direction: rtl;"> <span>- 2
+                                                            </span>
+                                                            <span>مليار ريال</span>
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style=" color: #2d98a0;"> صندوق الصناديق </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style="text-align: right;direction: rtl;"> <span>- 4
+                                                            </span>
+                                                            <span>مليار ريال</span>
+                                                        </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style=" color: #2d98a0;"> مبادرة استرداد الرسوم </li>
+                                                        <br/>
+                                                        <li class="aboutslidtxtli" style="text-align: right;direction: rtl;"> <span>- 7
+                                                            </span>
+                                                            <span>مليار ريال</span>
+                                                        </li>
+                                                        <br/>
+                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                    
+                    
+                    
+                    
+                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="news-section">
+                        <div class="top-rotten-curve"></div>
+                        
+                        <div class="auto-container">
+                            
+                            <div class="title-box clearfix">
+                                <div class="sec-title" style="float: initial; font-family: Droid Arabic Kufi;">
+                                    
+                                    <center><h2 style="color: darkcyan;">اخر الاخبار</h2></center>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                            <div class="row clearfix" style="direction: rtl;">
+                                
+                                
+                                
+                                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="image-box">
+                                            <figure class="image"><a href="https://fai-news.com/39288/#.YUsz07QjcWw.whatsapp"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/nws/11.jpg" alt=""/></a></figure>
+                                        </div>
+                                        <div class="lower-content">
+                                            <div class="date">22 <span class="month">SEP</span></div>
+                                            <h3><a href="https://fai-news.com/39288/#.YUsz07QjcWw.whatsapp"> الأمير فيصل بن خالد بن سلطان</a></h3>
+                                            <div class="text">
+                                            امير الحدود الشمالية يتسلّم التقرير السنوي لنادي ريادة الأعمال بالمنطقة - صحيفة فيء الإلكترونية
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="image-box">
+                                            <figure class="image"><a href="https://twitter.com/northbordersa/status/1373984281740111874?s=24"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/nws/10d.jpg" alt=""/></a></figure>
+                                        </div>
+                                        <div class="lower-content">
+                                            <div class="date">22 <span class="month">MAR</span></div>
+                                            <h3><a href="https://twitter.com/northbordersa/status/1373984281740111874?s=24"> الأمير فيصل بن خالد بن سلطان</a></h3>
+                                            <div class="text">
+                                            رعى الأمير فيصل بن خالد بن سلطان  أمير منطقة الحدود الشمالية  عبر الاتصال المرئي  اليوم, ملتقى ريادة الأعمال الأول لعام 2021م، الذي ينظمه نادي ريادة الأعمال بالمنطقة.
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="image-box">
+                                            <figure class="image"><a href="https://twitter.com/NorthborderSA/status/1277229498002481152"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/nws/9.jpg" alt=""/></a></figure>
+                                        </div>
+                                        <div class="lower-content">
+                                            <div class="date">1 <span class="month">JUL</span></div>
+                                            <h3><a href="https://twitter.com/NorthborderSA/status/1277229498002481152"> الأمير فيصل بن خالد بن سلطان</a></h3>
+                                            <div class="text">
+                                            استقبل #الأمير_فيصل_بن_خالد_بن_سلطان #أميـر_منطقـة_الحـدود_الشماليـة  في الإمارة اليوم، أصحاب المنشآت الصغيرة والمتوسطة بمناسبة "اليوم العالمي للمشروعات الصغيرة والمتوسطة بحضور معالي رئيس جامعة #الحدود_الشمالية الدكتور محمد الشهري وعدد من مديري الإدارات الحكومية المعنية بالمنطقة
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="image-box">
+                                            <figure class="image"><a href="https://twitter.com/NorthborderSA/status/1278303553313034241"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/nws/8.jpg" alt=""/></a></figure>
+                                        </div>
+                                        <div class="lower-content">
+                                            <div class="date">1 <span class="month">JUL</span></div>
+                                            <h3><a href="https://twitter.com/NorthborderSA/status/1278303553313034241"> الأمير فيصل بن خالد بن سلطان</a></h3>
+                                            <div class="text">دشن #الأمير_فيصل_بن_خالد_بن_سلطان #أميـر_منطقـة_الحـدود_الشماليـة في ديوان الإمارة اليوم المنصة الرقمية لمبادرة #تنموي  بحضور معالي رئيس جامعة #الحدود_الشمالية الدكتور محمد بن يحيى الشهري و مديري الإدارات الحكومية المعنية بالمنطقة</div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="image-box">
+                                            <figure class="image"><a href="https://twitter.com/northbordersa/status/1151235626496352258?s=12"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/nws/1.jpg" alt=""/></a></figure>
+                                        </div>
+                                        <div class="lower-content">
+                                            <div class="date">16 <span class="month">JUL</span></div>
+                                            <h3><a href="https://twitter.com/northbordersa/status/1151235626496352258?s=12"> الأمير فيصل بن خالد بن سلطان</a></h3>
+                                            <div class="text"> نحن في #الحدود_الشمالية حرصنا على تنمية القطاع الخاص بالمنطقة ليقوم بدوره التنموي المأمول عبر مبادرة "تنموي"
+                                            وكان سموه قد ترأس اجتماع مبادرة #تنمية المنشآت الصغيرة والمتوسطة بقاعة الاجتماعات بالإمارة اليوم.</div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="image-box">
+                                            <figure class="image"><a href="https://twitter.com/northbordersa/status/1152176919930183680?s=12"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/nws/2.jpg" alt=""/></a></figure>
+                                        </div>
+                                        <div class="lower-content">
+                                            <div class="date">16 <span class="month">JUL</span></div>
+                                            <h3><a href="https://twitter.com/northbordersa/status/1152176919930183680?s=12"> الأمير فيصل بن خالد بن سلطان</a></h3>
+                                            <div class="text">  تشكل الشركات الصغيرة والمتوسطة 85٪ من الشركات وتنهض بدور كبير في الإجمالي المحلي وتوليد الوظائف
+                                            وأشاد سموه بما حققته مبادرة #تنموي وتحليل عناصر منظومة الأعمال الصغيرة والمتوسطة وما نتج عن ذلك من تحديد لمواطن الخلل ورسم إستراتيجية عملية لمعالجتها.</div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="image-box">
+                                            <figure class="image"><a href="https://twitter.com/NorthborderSA/status/1272901517243187202/photo/1"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/nws/3.jpg" alt=""/></a></figure>
+                                        </div>
+                                        <div class="lower-content">
+                                            <div class="date">16 <span class="month">JUL</span></div>
+                                            <h3><a href="https://twitter.com/NorthborderSA/status/1272901517243187202/photo/1"> وجه سمو الأمير فيصل بن خالد بن سلطان </a></h3>
+                                            <div class="text"> بتشكيل فريق عمل لتخطيط مبادرة #تنموي بمشاريع تنفيذية محددة وواضحة والإشراف على تنفيذها وقياس التقدم في تحقيق أهدافها أولاً بأول من خلال مؤشرات قياس شاملة ودقيقة</div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+                            <div class="link">
+                                <a href="/news" class="theme-btn btn-style-one btn-block" style="text-align: center;font-family: Droid Arabic Kufi;" >
+                                    <span class="btn-title">كل الاخبار</span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
+
+                    <section class="what-we-do">
+                        <div class="auto-container">
+            
+                            <div class="sec-title centered">
+            
+                                <h2 style="color: darkcyan;">شركاء النجاح</h2>
+            
+                            </div>
+            
+                            <div class="auto-container">
+                                <!--Sponsors Carousel-->
+                                <div class="love-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "800":{ "items" : "3" }, "1024":{ "items" : "4" }}}'>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/1.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/2.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/3.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/4.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/5.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/6.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/7.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/8.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/9.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="logo">
+                                            <a href="#">
+                                                <img src="/tanmawi/static/tanmwi/public/images/partener/10.png" alt=""/>
+                                            </a>
+                                        </figure>
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <div class="bottom-image">
+                                <img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png"/>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
+
+
+                </t>
+
+            </t>
+            
+            
+        </template>
+    </data>
+</odoo>

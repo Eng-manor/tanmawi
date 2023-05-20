@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <template id="tanmawi.project_view">
+            <t t-call="tanmawi.warrper_front_layout">
+
+                <t t-set="page_warpper_main">
+                    <section class="what-we-do">
+                        <div class="auto-container">
+                            <div class="slide-item">
+                                <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                                    <div class="lower-content">
+                                        <div class="date">
+                                            <img t-attf-src="data:image/png;base64,#{projectid.icon}" class="projslidimg" />
+                                        </div>
+                                        <br />
+                                        <h3 class="projectslidtxthed" style="font-size: 22px;">
+                                            <t t-raw="projectid.header" />
+                                        </h3>
+                                        <br />
+                                        <br />
+                                        <!-- <h3 class="projectslidtxthed" style="font-size: 22px;">  المالية لتقديم الدعم الكامل و تسهيل الإجراءات للمنشآت الصغيرة والمتوسطة و رواد الأعمال</h3>
+                                        <br />
+                                        <br /> -->
+                                        <t t-foreach="projectid.project_points_ids" t-as="p">
+
+                                            <h3 t-if="p.has_parent == False" class="projectslidtxthed" style="font-size: 22px;">
+                                                ◉
+                                                <t t-raw="p.name" />
+                                            </h3>
+                                            <br />
+
+
+                                        </t>
+                                        <!-- <h3 class="projectslidtxthed" style="font-size: 22px;"> ◉ إنماء 2019    </h3>
+                                        <br />
+                                        <h3 class="projectslidtxthed" style="font-size: 22px;"> - تدشين ملتقى الجهات الداعمة المنشآت الصغيرة والمتوسطة  ( مشاركة 27 جهة داعمة )    </h3>
+                                        <br />
+                                        <br />
+
+                                        <h3 class="projectslidtxthed" style=" font-size: 22px; "> ◉ إنماء 2020 </h3>
+                                        <br />
+
+                                        <h3 class="projectslidtxthed" style=" font-size: 22px; "> - ملتقى التجارة الالكترونية  ( 35 جهة )  </h3>
+                                        <div style="position: relative; right: 298px;top: 141px; ">
+                                            <ul>
+                                                <li class="projectslidtxtli"></li>
+                                                <br />
+
+                                                <br />
+                                            </ul>
+                                        </div>-->
+                                        <br />
+                                        <br />
+
+                                        <br />
+                                        <br />
+
+                                        <br />
+                                        <br />
+
+                                        <br />
+                                        <br />
+
+                                        <br />
+                                        <br />
+
+                                        <br />
+                                        <br />
+
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-image">
+                                <img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/image-spacer-for-validation.png" alt="" />
+                            </div>
+                        </div>
+                    </section>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

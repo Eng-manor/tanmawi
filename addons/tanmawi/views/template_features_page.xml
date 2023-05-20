@@ -1,0 +1,201 @@
+<odoo>
+    <data>
+        <template id="tanmawi.features_page">
+
+            <t t-call="tanmawi.warrper_front_layout">
+
+                <t t-set="page_warpper_main">
+
+                    <!-- Page Banner Section -->
+    <section class="page-banner">
+        <div class="image-layer lazy-image" data-bg="url('/tanmawi/static/tanmwi/public/images/background/farth.jpg')"></div>
+        <div class="bottom-rotten-curve alternate"></div>
+
+        <div class="auto-container">
+            <h1 style="font-family:'Droid Arabic Kufi'; color: #4a4c52bf;" > </h1>
+            
+        </div>
+
+    </section>
+    <!--End Banner Section -->
+
+	
+    <!--Causes Section-->
+    <section class="causes-section">
+        <div class="auto-container">
+        
+        	
+                        
+        	<div class="row clearfix" style="direction: rtl;">
+            
+            	<!--Cause Block-->
+                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInUp" data-wow-delay="0ms">
+                    	<div class="image-box">
+                        	<figure class="image"><a href="#"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/467408.jpg" alt=""/></a></figure>
+                        </div>
+                        <div class="donate-info">
+                            <div class="progress-box">
+                                <div class="bar">
+                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="lower-content">
+                            <center><h3 style="font-family:'Droid Arabic Kufi';">الأهمية الصناعية</h3></center>
+                            <div class="text" style="font-family:'Droid Arabic Kufi';">يتوفر بها أكبر احتياطي بالعالم من معدن الفوسفات و الغاز الطبيعي حيث رصدت لها الدولة 26 مليار ريال
+							لإنشاء مدينة صناعية</div>
+                            <div class="link-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">المزيد</span></a></div>
+                        </div>
+                    </div>
+                </div>
+				
+                
+                <!--Cause Block-->
+                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                    	<div class="image-box">
+                        	<figure class="image"><a href="#"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/camel.jpg" alt=""/></a></figure>
+                        </div>
+                        <div class="donate-info">
+                            <div class="progress-box">
+                                <div class="bar">
+                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="lower-content">
+                            <h3 style="font-family:'Droid Arabic Kufi';">الأهمية الحيوانية</h3>
+                            <div class="text" style="font-family:'Droid Arabic Kufi';">تضم أكبر ثروة حيوانية على مستوى البلد حيث تشكل الثلث من حيث الانتاج الفني</div>
+                            <div class="link-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">اقراء المزيد</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Cause Block-->
+                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInUp" data-wow-delay="600ms">
+                    	<div class="image-box">
+                        	<figure class="image"><a href="#"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/northrr.jpg" alt=""/></a></figure>
+                        </div>
+                        <div class="donate-info">
+                            <div class="progress-box">
+                                <div class="bar">
+                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="lower-content">
+                            <h3 style="font-family:'Droid Arabic Kufi';">الأهمية الحضارية</h3>
+                            <div class="text" style="font-family:'Droid Arabic Kufi';">تحتضن عدد من المواقع الآثرية التي تعود إلى عصر ما قبل الإسلام في محافظتي عرعر وطريف وتشاهد في
+								الأساسات الجدارية لقصر ( دوقرة ) وغيرها</div>
+                            <div class="link-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">اقراء المزيد</span></a></div>
+                        </div>
+                    </div>
+                </div>
+				
+				<!--Cause Block-->
+                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInUp" data-wow-delay="600ms">
+                    	<div class="image-box">
+                        	<figure class="image"><a href="#"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/Economy.jpg" alt=""/></a></figure>
+                        </div>
+                        <div class="donate-info">
+                            <div class="progress-box">
+                                <div class="bar">
+                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="lower-content">
+                            <h3 style="font-family:'Droid Arabic Kufi';">المستقبل الاقتصادي</h3>
+                            <div class="text" style="font-family:'Droid Arabic Kufi';">المدينة الاقتصادية ( وعد الشمال ) الذي سيوفر نهضة اقتصادية كبرى وسيجلب إليها رأس مال محلي و أجنبي
+							وكذلك وجود معبر حدودي سيسهل التبادل التجاري</div>
+                            <div class="link-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">اقراء المزيد</span></a></div>
+                        </div>
+                    </div>
+                </div>
+				
+				
+                <!--Cause Block-->
+                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInUp" data-wow-delay="0ms">
+                    	<div class="image-box">
+                        	<figure class="image"><a href="#"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/improve.PNG" alt=""/></a></figure>
+                        </div>
+                        <div class="donate-info">
+                            <div class="progress-box">
+                                <div class="bar">
+                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lower-content">
+                            <center><h3 style="font-family:'Droid Arabic Kufi';">تعدد مجالات التنمية</h3></center>
+                            <div class="text" style="font-family:'Droid Arabic Kufi';">المنطقة هي أرض واعدة تستوعب جميع النشاطات وكل مجالات العمل , ولعل النسق البشري و التجانس الاجتماعي
+								يكفلان الأمان في الاستثمار النوعي</div>
+                            <div class="link-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">المزيد</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Cause Block-->
+                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInUp" data-wow-delay="0ms">
+                    	<div class="image-box">
+                        	<figure class="image"><a href="#"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/northernborders13.gif" alt=""/></a></figure>
+                        </div>
+                        <div class="donate-info">
+                            <div class="progress-box">
+                                <div>
+                                    <div ><div class="count-text"> </div></div>
+                                </div>
+                            </div>
+                            <div class="donation-count clearfix"><span class="raised"/></div>
+                        </div>
+                        <div class="lower-content">
+                            <center><h3 style="font-family:'Droid Arabic Kufi';">الموقع الجغرافي</h3></center>
+                            <div class="text" style="font-family:'Droid Arabic Kufi';">تمتاز بموقعها الجغرافي الاستراتيجي , فمن الجهة الشمالية تحيط بها دولة العراق و من جهة الغرب
+								دول الأردن وسوريا و لبنان</div>
+                            <div class="link-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">المزيد</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                
+				<!--Cause Block-->
+                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInUp" data-wow-delay="0ms">
+                    	<div class="image-box">
+                        	<figure class="image"><a href="#"><img class="lazy-image" src="/tanmawi/static/tanmwi/public/images/resource/image-spacer-for-validation.png" data-src="/tanmawi/static/tanmwi/public/images/resource/44444.jpeg" alt=""/></a></figure>
+                        </div>
+                        <div class="donate-info">
+                            <div class="progress-box">
+                                <div>
+                                    <div ><div class="count-text"> </div></div>
+                                </div>
+                            </div>
+                            <div class="donation-count clearfix"><span class="raised"/></div>
+                        </div>
+                        <div class="lower-content">
+                            <center><h3 style="font-family:'Droid Arabic Kufi';">الديموغرافية السكانية </h3></center>
+                            <div class="text" style="font-family:'Droid Arabic Kufi';">  تبلغ نسبة فئة الشباب اكثر من 65 %</div>
+                            <div class="link-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">المزيد</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+    </section>
+
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
